@@ -2,7 +2,7 @@
 
 A simple web app capable of CRUD operations.
 
-## LIVE DEMO
+## Live Demo
 
 http://icarlospro.com/Projects/CRUD_Project/index.html 
 ##
