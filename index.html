@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+    <!--My CSS-->
+    <link rel = "stylesheet" type = "text/css" href = "styles.css" />
+
+    <title>CC12 - Carlos - CRUD Project</title>
+
+    <!-- Firestore -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-firestore.js"></script>
+  </head>
+  <body>
+
+ 
+  <!-- Inserts Bubble Background -->
+		<script src="https://cdn.jsdelivr.net/npm/bubbly-bg@0.2.3/dist/bubbly-bg.js"></script>
+    <script>bubbly({
+      colorStart: '#FFF456',
+      colorStop: '#00ffff',
+      bubbleFunc:() => `hsla(${Math.random() * 360}, 100%, 50%, ${Math.random() * 0.25})`
+    });</script>
+    
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.14.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+
+
+    <div class="container">
+      <h1>🍕 CC-12 Friend's Favourite Food 🍔</h1>
+      <input type="text" id="name" placeholder="Name" class="form-control my-3">
+      <input type="text" id="lastname" placeholder="Lastname" class="form-control my-3">
+      <input type="text" id="food" placeholder="Favorite Food" class="form-control my-3">
+      <button class="btn btn-info" id="button" onclick="save()">Save</button>
+
+      <table class="table my-3">
+          <thead>
+            <tr>
+              <th scope="col">Id</th>  
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Food</th>
+              <th scope="col">Delete</th>
+              <th scope="col">Edit</th>
+            </tr>
+          </thead>
+          <tbody id="table">
+          </tbody>
+        </table>
+    </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    
+    <script src="app.js"></script>
+    <script type="text/javascript" src="environmentVars.js"></script> 
+
+  </body>
+</html>
