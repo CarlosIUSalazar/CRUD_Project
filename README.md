@@ -14,16 +14,18 @@ This project was made during my time in Code Chrysalis.  This project started as
 
 ### Prerequisites
 
-A live demo of this project can be accessed though: http://icarlospro.com/Projects/CRUD_Project/index.html or http://cc-12-crud-project-carlos-salazar.s3-website-us-east-1.amazonaws.com/
+A live demo of this project can be accessed though:
 
 ```
-Give examples
+ http://icarlospro.com/Projects/CRUD_Project/index.html 
+ 
+ http://cc-12-crud-project-carlos-salazar.s3-website-us-east-1.amazonaws.com/
 ```
 
 ### Installing
 
 For security reasons the firebase API Key has not been included in the project.  It's easy however to get your own api key from https://firebase.google.com/docs/firestore/quickstart?authuser=0 where it will be possible to generate a database and Apikeys of your own. It should look like this:
-
+```
 // Initialize Cloud Firestore through Firebase
 firebase.initializeApp({
   apiKey: '### FIREBASE API KEY ###',
@@ -32,11 +34,8 @@ firebase.initializeApp({
 });
 
 var db = firebase.firestore();
-
 ```
-Give the example
-```
-Once you have your own API Keys replace the ones inside app.js and it should connect to your own database.  The functionality will remain the same. You will be able to Create Read Update and Delete your friend's names and their favourite foods. The database in firebase is updated in realtime. 
+Once you have your own API Keys replace the ones inside ```app.js``` and it should connect to your own database.  The functionality will remain the same. You will be able to Create Read Update and Delete your friend's names and their favourite foods. The database in firebase is updated in realtime. 
 
 
 ## Running the tests
