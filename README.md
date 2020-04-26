@@ -4,8 +4,10 @@ A simple web app capable of CRUD operations.
 
 ## LIVE DEMO
 
-http://icarlospro.com/Projects/CRUD_Project/index.html
+http://icarlospro.com/Projects/CRUD_Project/index.html 
+##
 or
+##
 http://cc-12-crud-project-carlos-salazar.s3-website-us-east-1.amazonaws.com/
 
 ## Getting Started
