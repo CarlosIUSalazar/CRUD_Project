@@ -30,7 +30,6 @@ function save(){
     let name = document.getElementById('name').value;
     let lastname = document.getElementById('lastname').value;
     let food = document.getElementById('food').value;
-
     db.collection("users").add({
         first: name,
         last: lastname,
@@ -42,12 +41,10 @@ function save(){
     .catch(function(error) {
         console.error("Error adding document: ", error);
     });
-
     //Reset the input fields
     document.getElementById('name').value = "";
     document.getElementById('lastname').value = "";
     document.getElementById('food').value = "";
-
 }
 
 //READ ENTRIES
