@@ -1,9 +1,9 @@
 This was created during my time as a student at Code Chrysalis
-# CRUD_Project
+# 🍕 FRIENDS FAV FOODS 🍔 CRUD_Project
 
 A simple web app capable of CRUD operations.
 
-## Live Demo
+## 🌭Live Demo
 
 http://icarlospro.com/Projects/CRUD_Project/index.html 
 ##
@@ -11,9 +11,9 @@ or
 ##
 http://cc-12-crud-project-carlos-salazar.s3-website-us-east-1.amazonaws.com/
 
-## Getting Started
+## 🥦 Getting Started
 
-This project was made during my time in Code Chrysalis.  This project started as a webapp with a back end consisting of Postgres, GraphQl, Knex, with a HTML front.  Due to technical difficulties connecting the database to a front end and other miriad of problems and short amount of time available I decided for a MVP that uses a Firebase cloud database instead. 
+This project started as a webapp with a back end consisting of Postgres, GraphQl, Knex, with a HTML front.  Due to technical difficulties connecting the database to a front end and other miriad of problems and short amount of time available I decided for a MVP that uses a Firebase cloud database instead. 
 
 ### Installing
 
