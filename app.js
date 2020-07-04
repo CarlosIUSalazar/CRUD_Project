@@ -12,7 +12,6 @@ firebase.initializeApp({
     authDomain: "cc-crud-project.firebaseapp.com",
     projectId: "cc-crud-project",
 });
-  
 // firebase.initializeApp({
 //     apiKey: process.env.APIKEY,
 //     authDomain: process.env.AUTHDOMAIN,
@@ -27,7 +26,6 @@ firebase.initializeApp({
 
 // Initialize Cloud Firestore through Firebase
 let db = firebase.firestore();
-
 //CREATE NEW ENTRIES
 function save(){
     let name = document.getElementById('name').value;
