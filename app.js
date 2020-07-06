@@ -23,7 +23,6 @@ firebase.initializeApp({
 //     authDomain: envVars.authdomain,
 //     projectId: envVars.projectid,
 // });
-
 // Initialize Cloud Firestore through Firebase
 let db = firebase.firestore();
 //CREATE NEW ENTRIES
@@ -50,7 +49,6 @@ function save(){
     document.getElementById('food').value = "";
 
 }
-
 
 //READ ENTRIES
 let table = document.getElementById('table');
